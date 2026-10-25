@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Will Andrew | Junior QA Engineer & Games Programmer</title>
+  <meta name="description" content="Portfolio of Will Andrew, Junior QA Engineer and games programmer working in C++, C#, OpenGL, Unity and Unreal Engine.">
+  <meta property="og:title" content="Will Andrew | Junior QA Engineer & Games Programmer">
+  <meta property="og:description" content="Test automation, C++/OpenGL graphics, and Unity and Unreal Engine game projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">Will Andrew</a>
+    <nav aria-label="Main">
+      <ul class="nav">
+        <li><a href="index.html" aria-current="page">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cv.pdf">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Junior QA Engineer · Games Programmer</p>
+      <h1>I test software and build games.</h1>
+      <p class="lead">
+        I'm a Junior QA Engineer at 3 Sided Cube in Bournemouth, testing mobile apps and
+        websites and improving our automated test suites. I graduated from Falmouth University
+        with a BSc (Hons) in Computing for Games, and I build real-time graphics and games in
+        C++, C#, OpenGL, Unity and Unreal Engine.
+      </p>
+      <div class="buttons">
+        <a class="btn primary" href="#projects">View my projects</a>
+        <a class="btn" href="cv.pdf">Download my CV</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Testing & Quality ===================== -->
+  <section class="section" id="testing">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Testing &amp; Quality</h2>
+        <p>Commercial QA and testing work from my projects</p>
+      </div>
+
+      <div class="grid-2">
+        <article class="card">
+          <h3>Test automation at 3 Sided Cube</h3>
+          <ul class="meta"><li>Commercial</li><li>Mobile &amp; web</li><li>May 2026 – present</li></ul>
+          <div class="stat-row">
+            <div class="stat"><strong>40%</strong><span>shorter test run times</span></div>
+            <div class="stat"><strong>120+ → 2–5</strong><span>actions in some test flows</span></div>
+            <div class="stat"><strong>100+</strong><span>test cases per run</span></div>
+          </div>
+          <ul class="points">
+            <li>Quality assure mobile apps and websites across large support projects and fast-paced deliveries.</li>
+            <li>Maintain and optimise automated test suites.</li>
+            <li>Plan and prioritise test runs, focusing coverage and automation on critical features and deadlines.</li>
+            <li>Log bugs with clear steps to reproduce, and follow them through to resolution.</li>
+          </ul>
+          <p class="small">Client work is confidential, so no code or screenshots are shown here.</p>
+        </article>
+
+        <article class="card">
+          <h3>Testing my dissertation project</h3>
+          <ul class="meta"><li>C++</li><li>Unit testing</li><li>Performance testing</li></ul>
+          <div class="media contain">
+            <img src="assets/unit-tests.png"
+                 data-fallback="https://raw.githubusercontent.com/Mr-Wilhelm/OpenGL-Culling-Algorithms/main/Unit%20Testing%20All%20Successes.png"
+                 alt="Visual Studio test explorer showing all unit tests for the culling project passing" loading="lazy">
+          </div>
+          <ul class="points" style="margin-top:16px">
+            <li>Wrote a unit test project alongside the culling artefact, with all tests passing.</li>
+            <li>Measured performance in dense, sparse and dynamic test environments.</li>
+            <li>Analysed and visualised the results statistically in R for my research paper.</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/Mr-Wilhelm/OpenGL-Culling-Algorithms/tree/main/UnitTest">See the unit tests →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== C++ ===================== -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>C++ &amp; OpenGL</h2>
+        <p>Graphics programming</p>
+      </div>
+
+      <article class="project">
+        <div>
+          <h3>OpenGL Culling Algorithms</h3>
+          <ul class="meta"><li>C++</li><li>OpenGL</li><li>Solo</li><li>Jan – May 2025</li><li>Grade: 1st</li></ul>
+          <ul class="points">
+            <li>Implemented back-face, depth (Z) and frustum culling in high-polygon environments.</li>
+            <li>Increased frame rate by approximately 300% with culling enabled.</li>
+            <li>Built as the artefact for my final-year dissertation.</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/Mr-Wilhelm/OpenGL-Culling-Algorithms">See the repository →</a>
+          </div>
+        </div>
+        <div class="media">
+          <img src="assets/culling.gif"
+               data-fallback="https://static.wixstatic.com/media/40ba1e_180a499cfff04331a7eabafb1f738511~mv2.gif"
+               alt="A 3D scene in OpenGL with culling being switched on and off" loading="lazy">
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <h3>OpenGL Particle System</h3>
+          <ul class="meta"><li>C++</li><li>OpenGL</li><li>Solo</li><li>Oct – Dec 2024</li></ul>
+          <ul class="points">
+            <li>Object-oriented particle system that creates a flame-like effect.</li>
+            <li>Optimised to reduce memory usage over time by 97%, running without memory leaks.</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/Mr-Wilhelm/OpenGL-Particle-System">See the repository →</a>
+          </div>
+        </div>
+        <div class="media">
+          <img src="assets/particles.gif"
+               data-fallback="https://static.wixstatic.com/media/40ba1e_3e02587883214f639353343e044ba246~mv2.gif"
+               alt="A flame effect made of particles rendered in OpenGL" loading="lazy">
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== Unreal ===================== -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Unreal Engine</h2>
+        <p>C++ and Blueprint</p>
+      </div>
+
+      <article class="project">
+        <div>
+          <h3>Ruinsanity</h3>
+          <ul class="meta"><li>Unreal Engine 5</li><li>Blueprint</li><li>Team project</li><li>Sep 2023 – May 2024</li></ul>
+          <ul class="points">
+            <li>Programmed a range of 3D physics-based puzzles.</li>
+            <li>Programmed visual effects in shader code.</li>
+            <li>Worked as a programmer in a multidisciplinary team, using Agile and Scrum to plan and scope the project to meet its deadline.</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/Mr-Wilhelm/Ruinsanity">See the repository →</a>
+            <a href="https://edwardhayden.itch.io/ruinsanity">Play it on itch.io →</a>
+          </div>
+        </div>
+        <div class="media">
+          <img src="assets/ruinsanity.gif"
+               data-fallback="https://static.wixstatic.com/media/40ba1e_9689d51760da4d0ab602375b40afc9a5~mv2.gif"
+               alt="Gameplay from Ruinsanity showing a temple puzzle" loading="lazy">
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <h3>FPS Boss Fight</h3>
+          <ul class="meta"><li>Unreal Engine 5</li><li>C++</li><li>Behaviour trees</li><li>Solo</li><li>Sep 2023 – Jan 2024</li></ul>
+          <ul class="points">
+            <li>Programmed first-person shooter mechanics and character movement in C++.</li>
+            <li>Programmed boss enemy behaviour using AI behaviour trees.</li>
+            <li>Optimised performance to increase frame rate and prevent memory leaks.</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/Mr-Wilhelm/UE5-Boss-Fight">See the repository →</a>
+          </div>
+        </div>
+        <div class="media">
+          <img src="assets/boss-fight.gif"
+               data-fallback="https://static.wixstatic.com/media/40ba1e_5f80af694ba04b619deacfe97c0899d1~mv2.gif"
+               alt="First-person gameplay of a boss fight" loading="lazy">
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== Unity ===================== -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Unity</h2>
+        <p>C#</p>
+      </div>
+
+      <article class="project">
+        <div>
+          <h3>Wayfarers Guild</h3>
+          <ul class="meta"><li>Unity</li><li>C#</li><li>Netcode</li><li>Team project</li><li>Sep 2024 – May 2025</li><li>Grade: 1st</li></ul>
+          <ul class="points">
+            <li>Designed, optimised and maintained UI, dialogue, quest and AI pathfinding systems.</li>
+            <li>Used Unity Netcode to sync game state between host and client.</li>
+            <li>Optimised Theta* pathfinding to handle more agents over larger distances.</li>
+            <li>Used Agile and Scrum to keep the project in scope and the team organised.</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/Mr-Wilhelm/WayfarersGuild">See the repository →</a>
+            <a href="https://edwardhayden.itch.io/wayfarers-guild">Play it on itch.io →</a>
+          </div>
+        </div>
+        <div class="media">
+          <img src="assets/wayfarers-guild.gif"
+               data-fallback="https://static.wixstatic.com/media/40ba1e_1d793020b34a48ffba9d901d9f28065b~mv2.gif"
+               alt="Co-op airship gameplay from Wayfarers Guild" loading="lazy">
+        </div>
+      </article>
+
+      <article class="project">
+        <div>
+          <h3>Unnamed Afterlife</h3>
+          <ul class="meta"><li>Unity</li><li>C#</li><li>Team project</li><li>Jan – May 2023</li></ul>
+          <ul class="points">
+            <li>Developed and implemented AI behaviour for regular and boss enemies.</li>
+            <li>Developed and implemented enemy wave mechanics.</li>
+            <li>Used Agile and Scrum to manage project scope and workload.</li>
+          </ul>
+          <div class="links">
+            <a href="https://will-andrew.itch.io/unnamed-afterlife">Play it on itch.io →</a>
+          </div>
+        </div>
+        <div class="media">
+          <img src="assets/unnamed-afterlife.gif"
+               data-fallback="https://static.wixstatic.com/media/40ba1e_75db0c5157794902848cf223ca077a42~mv2.gif"
+               alt="Wave-based combat gameplay from Unnamed Afterlife" loading="lazy">
+        </div>
+      </article>
+
+      <p class="small">More game jam projects are on my <a href="https://will-andrew.itch.io/">itch.io page</a>.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <h2>Contact me</h2>
+    <p>I'm open to junior QA and games programming roles across the UK.</p>
+    <ul class="contact-list">
+      <li><a href="mailto:willandrew3141@gmail.com">willandrew3141@gmail.com</a></li>
+      <li><a href="tel:+447803310010">07803 310010</a></li>
+      <li><a href="https://www.linkedin.com/in/william-andrew-5b58812b1/">LinkedIn</a></li>
+      <li><a href="https://github.com/Mr-Wilhelm">GitHub</a></li>
+      <li><a href="https://will-andrew.itch.io/">itch.io</a></li>
+    </ul>
+    <p class="copyright">© <span id="year">2026</span> Will Andrew</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
